@@ -2,7 +2,7 @@
 
 node {
   stage 'Checkout'
-     checkut scm
+     checkout scm
 
   stage 'Setup'
      sh 'npm install'
